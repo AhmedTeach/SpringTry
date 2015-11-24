@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+.formatable {
+	width:400px;
+	padding:10px;
+	border: 1px solid blue;
+}
+
+
+input[type=text]{
+	width:250px;
+} 
+
+textarea{
+	width: 250px;
+	height: 300px;
+}
+
+.label{
+	text-aligh: right;
+	vertical-aligh: top;
+}
+
+.control{
+	margin-left: 10px;
+}
+.error{
+	font-size: small;
+	color:red;
+	margin-left: 10px;
+}
+table.offers{
+	padding : 10px;
+	border: 1px solid gray;
+}
+p.loginerror{
+	font-size:medium
+}
